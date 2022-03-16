@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0041D8D0-62F0-3D65-FDA5-9C2FA66307D7" name="T_RT_CLIENTE">
+<createdBy>henri</createdBy>
+<createdTime>2022-03-15 23:25:12 UTC</createdTime>
+<ownerDesignName>primeiro_modelo_logico_db</ownerDesignName>
+<engineerTo>
+<item key="84251231-4E9D-2213-D48C-5CE1B35AC406" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="1C1B4979-921F-8D30-57B7-E4C5DAC2CC6B">
+<createdBy>henri</createdBy>
+<createdTime>2022-03-15 23:25:21 UTC</createdTime>
+<ownerDesignName>primeiro_modelo_logico_db</ownerDesignName>
+<engineerTo>
+<item key="84251231-4E9D-2213-D48C-5CE1B35AC406" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="696F43ED-3C5B-46F5-9E8A-D431B950B55E">
+<createdBy>henri</createdBy>
+<createdTime>2022-03-15 23:25:21 UTC</createdTime>
+<ownerDesignName>primeiro_modelo_logico_db</ownerDesignName>
+<engineerTo>
+<item key="84251231-4E9D-2213-D48C-5CE1B35AC406" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="752A0FAC-076F-D237-AF5D-24BA6C2AEA88" name="T_RT_CLIENTE PK">
+<createdBy>henri</createdBy>
+<createdTime>2022-03-15 23:29:41 UTC</createdTime>
+<ownerDesignName>primeiro_modelo_logico_db</ownerDesignName>
+<engineerTo>
+<item key="84251231-4E9D-2213-D48C-5CE1B35AC406" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C1B4979-921F-8D30-57B7-E4C5DAC2CC6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
