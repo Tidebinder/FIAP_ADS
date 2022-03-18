@@ -1,0 +1,12 @@
+package first_project;
+
+import java.util.Scanner;
+
+public class AreaQuadrado {
+
+	public static void main (String args[]){
+		
+		
+		
+	}
+}

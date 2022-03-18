@@ -1,0 +1,32 @@
+package first_project;
+
+import java.util.Scanner;
+
+public class helloworld {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		
+		System.out.println("Programa de soma:\n");
+		
+		System.out.printf("Digite o numero 1:");
+		
+		int numero1 = scan.nextInt();
+		
+         System.out.printf("Digite o numero 2:");
+		
+		int numero2 = scan.nextInt();
+		
+		int soma = numero1 + numero2;
+		
+		System.out.printf("A soma dos numeros é:%s",soma);
+		
+		
+		
+
+	}
+
+}

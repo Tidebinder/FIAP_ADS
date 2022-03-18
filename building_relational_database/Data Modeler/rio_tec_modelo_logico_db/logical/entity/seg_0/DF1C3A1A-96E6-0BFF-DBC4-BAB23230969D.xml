@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF1C3A1A-96E6-0BFF-DBC4-BAB23230969D" name="T_RT_PRODUTO">
+<createdBy>henri</createdBy>
+<createdTime>2022-03-15 23:45:24 UTC</createdTime>
+<ownerDesignName>rio_tec_modelo_logico_db</ownerDesignName>
+<engineerTo>
+<item key="B32F302B-533A-70C9-9EF8-BCEBF841015F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
