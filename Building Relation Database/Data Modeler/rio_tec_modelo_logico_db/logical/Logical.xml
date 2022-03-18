@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2B278374-A173-068A-511D-A73E4129866A" mainViewID="1EEFE37A-8D48-E8D2-1DE7-751F19A78F83">
-<createdBy>henri</createdBy>
-<createdTime>2022-03-15 23:43:50 UTC</createdTime>
-<ownerDesignName>rio_tec_modelo_logico_db</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

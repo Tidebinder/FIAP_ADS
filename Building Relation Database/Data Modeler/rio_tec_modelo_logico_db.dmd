@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="rio_tec_modelo_logico_db" id="9720B266-AB32-4FEA-F488-4978CF24BF1E" version="3.5">
-<createdBy>henri</createdBy>
-<createdTime>2022-03-15 23:43:50 UTC</createdTime>
-<ownerDesignName>rio_tec_modelo_logico_db</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>9720B266-AB32-4FEA-F488-4978CF24BF1E</designId>
-</OSDM_Design>
