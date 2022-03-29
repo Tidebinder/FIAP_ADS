@@ -1,10 +1,9 @@
-package exercicios_aula2;
+package exercicios_aula3;
 
 import java.util.Scanner;
 
-public class AreaRetangulo {
-	
-	public static void main (String args[]) {
+public class AreaRetanguloGrande_11 {
+       public static void main (String args[]) {
 		
 		Scanner stdin = new Scanner(System.in);
 		
@@ -21,6 +20,11 @@ public class AreaRetangulo {
         double area = base * altura;
         
         System.out.printf("Altura(%.2f) x Base(%.2f) = Area(%.2f)", altura,base,area);
-	}
-	
+        
+        if (area >= 100) {
+        	System.out.printf("\nTerreno grandão heim...");
+        }
+        stdin.close();	
+        
+       }
 }

@@ -2,7 +2,7 @@ package exercicios_aula3;
 
 import java.util.Scanner;
 
-public class NumGt {
+public class NumGt_8 {
       public static void main (String args[]) {
     	  
     	  Scanner stdin = new Scanner(System.in);
@@ -17,12 +17,15 @@ public class NumGt {
     	  
     	  
     	  if (numero_1 > numero_2) {
-    		  System.out.printf("O numero %.0f é maior que %.0f",numero_1,numero_2);
+    		  System.out.printf("O numero %.0f Ã© maior que %.0f",numero_1,numero_2);
     	  }
     	  else if (numero_1 == numero_2) {
-    		  System.out.printf("O número %.0f é igual a %.0f", numero_1,numero_2);
+    		  System.out.printf("O numero %.0f Ã© igual que %.0f", numero_1,numero_2);
     	  } else {
-    		  System.out.printf("O numero %.0f é maior que %.0f", numero_2,numero_1);
+    		  System.out.printf("O numero %.0f Ã© maior que %.0f", numero_2,numero_1);
     	  }
+    	  
+    	  stdin.close();      
+    	  
       }
 }

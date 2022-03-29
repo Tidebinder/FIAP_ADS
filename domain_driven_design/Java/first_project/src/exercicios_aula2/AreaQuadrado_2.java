@@ -2,7 +2,7 @@ package exercicios_aula2;
 
 import java.util.Scanner;
 
-public class AreaQuadrado {
+public class AreaQuadrado_2 {
 
 	public static void main (String args[]){
 		
@@ -15,6 +15,7 @@ public class AreaQuadrado {
 	    double area = Math.pow(aresta, 2) ;
 	    
 	    System.out.printf("A aresta é %.2f portanto %.2f² = %.2f",aresta,aresta,area);
-		
+	    
+	    stdin.close();		
 	}
 }

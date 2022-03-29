@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import java.util.ArrayList;
 
-public class MediaAritmetica {
+public class MediaAritmetica_4 {
 	
 	public static void main (String args[]) {
 		
@@ -49,6 +49,7 @@ public class MediaAritmetica {
 		
 		System.out.printf("O resultado da media é: %.2f",resultado);
 	
+		stdin.close();
 		
 	}
 

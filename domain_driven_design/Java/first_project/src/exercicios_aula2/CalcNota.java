@@ -18,6 +18,7 @@ public class CalcNota {
 		
 		System.out.printf("Seu nome é %s e sua nota é %.2f",nome,nota);
 		
+		scan.close();		
 	}
 
 }

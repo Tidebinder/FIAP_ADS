@@ -23,7 +23,8 @@ public class Soma {
 		//Printando a soma.
 		System.out.printf("A soma dos numeros é:%s",soma);
 		
-
+        scan.close();	
+        
 	}
 
 }

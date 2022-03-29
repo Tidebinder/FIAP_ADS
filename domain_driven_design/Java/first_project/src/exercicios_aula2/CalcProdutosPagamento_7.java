@@ -3,7 +3,7 @@ package exercicios_aula2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CalcProdutosPagamento {
+public class CalcProdutosPagamento_7 {
 	public static void main (String args[]) {
 		
 		Scanner stdin = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class CalcProdutosPagamento {
 			
 		}
 		
-		System.out.printf("A soma de todos os produtos é: %.2f",resultado);
+		System.out.printf("A soma de todos os produtos ï¿½: %.2f",resultado);
 		
 		stdin.close();	
 	}

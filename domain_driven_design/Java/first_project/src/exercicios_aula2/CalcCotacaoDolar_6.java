@@ -1,13 +1,9 @@
 package exercicios_aula2;
 
 import java.util.Scanner;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 
 
-public class CalcCotacaoDolar {
+public class CalcCotacaoDolar_6 {
 	public static void main(String args[]) {
 			
 		Scanner stdin = new Scanner(System.in);
@@ -19,5 +15,6 @@ public class CalcCotacaoDolar {
 		double resultado = dolares * cotacao;
 				
 		System.out.printf("Resultado: %.2f",resultado);
+		stdin.close();	
 	}
 }

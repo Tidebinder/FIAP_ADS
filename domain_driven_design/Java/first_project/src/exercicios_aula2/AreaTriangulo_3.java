@@ -2,7 +2,7 @@ package exercicios_aula2;
 
 import java.util.Scanner;
 
-public class AreaTriangulo {
+public class AreaTriangulo_3 {
 	
 	public static void main (String args[]) {
 		
@@ -21,7 +21,7 @@ public class AreaTriangulo {
 		float area = (base * altura) / 2;
 				
 		System.out.printf("A altura é %.2f e a base é %.2f, o resultado é: %.2f",altura,base,area);
-		
+		stdin.close();	
 	}
 
 }
