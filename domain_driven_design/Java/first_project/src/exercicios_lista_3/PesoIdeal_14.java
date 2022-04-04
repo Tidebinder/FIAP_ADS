@@ -1,4 +1,4 @@
-package exercicios_aula3;
+package exercicios_lista_3;
 
 import java.util.Scanner;
 public class PesoIdeal_14 {
