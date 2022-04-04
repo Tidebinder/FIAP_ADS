@@ -1,22 +1,11 @@
-from calendar import monthrange
+time_1_nome = str(input("Digite o nome do primeiro time:"))
+time_1_gols = int(input("Quantos gols eles fizeram:"))
+time_2_nome = str(input("Digite o nome do segundo time:"))
+time_2_gols = int(input("Quantos gols eles fizeram:"))
 
-mes_dias_uteis = monthrange(2022,int(input("Digite o mês em numeral:")))[1] - 8
-
-horas_trabalhadas = int(input("Digite quantas horas você trabalhou nesse mês:"))
-
-salario_hora = float(input("Digite quanto você ganha por hora:"))
-
-horas_extras = horas_trabalhadas / mes_dias_uteis
-
-if horas_extras > 8:
-
-    salario = horas_trabalhadas * salario_hora
-    ganho_extra = horas_extras * (salario_hora * 50 / 100) 
-    print(f"Você ganha {salario} e vai receber R${round(ganho_extra,2)} de horas extras, no total vc vai ganhar {round(salario + ganho_extra,2)}")
-
+if time_1_gols > time_2_gols:
+    print(f"{time_1_nome} GANHOU !!!!!")
+elif time_1_gols == time_2_gols:
+    print("EMPATEEEEE!!!!")
 else:
-    salario = salario_hora * horas_trabalhadas
-    print(f"Você só trabalhou 8 horas por dia, seu salário será de R${salario}")
-
-
-
+    print(f"{time_2_nome} GANHOU !!!!!")
