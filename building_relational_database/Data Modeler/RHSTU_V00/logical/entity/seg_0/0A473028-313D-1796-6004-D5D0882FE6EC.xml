@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A473028-313D-1796-6004-D5D0882FE6EC" name="T_RHSTU_MEDICOS">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:24:54 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medico" id="1F0F688C-09BD-4B5E-5C8E-083A0F1CAEF8">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:28:30 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="crm_medico" id="642FB10C-2DBC-5E62-A48A-0B0B1DCBA3CD">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:28:56 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_medico" id="2E58DCD0-C9B4-27CA-A6AB-72B6CCF56EA2">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:30:40 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE33153A-2562-C028-B664-FCBF3730D4EB" name="T_RHSTU_MEDICOS PK">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:28:48 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F0F688C-09BD-4B5E-5C8E-083A0F1CAEF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A301250-0415-5565-DEBC-57817ED442F5" name="T_RHSTU_CONSULTAS">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:32:48 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consulta" id="0B04B14B-E9B6-B3C7-2109-F5EDF6021F02">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:34:18 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medico" id="355F1706-C42D-2139-4178-6D14C0982F88">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:33:08 UTC</createdTime>
+<generatorID>1D7E03D1-8574-F2AA-680F-FC32FEB82179</generatorID>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>1F0F688C-09BD-4B5E-5C8E-083A0F1CAEF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="76AD3F04-C0A7-8989-90A9-F931838B73C7">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:33:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>632FFEDC-C79A-5258-002B-209EA5929C35</generatorID>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>15A097FF-A07C-398B-0F86-D42FFB66F5C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_consulta" id="C48B118B-CCAD-2729-EFF7-3F4132B02318">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:34:47 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_sala" id="1946A444-8A90-17A9-D803-25A306F03F8D">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:35:34 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBF2E882-3AAA-88F7-2E48-D6B7AC4412C7" name="T_RHSTU_CONSULTAS PK">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:33:08 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B04B14B-E9B6-B3C7-2109-F5EDF6021F02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

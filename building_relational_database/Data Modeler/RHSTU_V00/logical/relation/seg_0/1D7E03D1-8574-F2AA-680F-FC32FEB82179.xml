@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MEDICO_CONSULTA" directorySegmentName="seg_0" id="1D7E03D1-8574-F2AA-680F-FC32FEB82179">
+<createdBy>henri</createdBy>
+<createdTime>2022-04-26 23:33:08 UTC</createdTime>
+<ownerDesignName>RHSTU_V00</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>EE33153A-2562-C028-B664-FCBF3730D4EB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A473028-313D-1796-6004-D5D0882FE6EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A301250-0415-5565-DEBC-57817ED442F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
